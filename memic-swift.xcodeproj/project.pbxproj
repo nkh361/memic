@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69ED0A5C2C2E6CEE00011EB7 /* memic_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED0A5B2C2E6CEE00011EB7 /* memic_swiftApp.swift */; };
+		69ED0A5E2C2E6CEE00011EB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED0A5D2C2E6CEE00011EB7 /* ContentView.swift */; };
+		69ED0A602C2E6CF000011EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69ED0A5F2C2E6CF000011EB7 /* Assets.xcassets */; };
+		69ED0A632C2E6CF000011EB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69ED0A622C2E6CF000011EB7 /* Preview Assets.xcassets */; };
+		69ED0A6D2C2E6CF000011EB7 /* memic_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED0A6C2C2E6CF000011EB7 /* memic_swiftTests.swift */; };
+		69ED0A772C2E6CF000011EB7 /* memic_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED0A762C2E6CF000011EB7 /* memic_swiftUITests.swift */; };
+		69ED0A792C2E6CF000011EB7 /* memic_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED0A782C2E6CF000011EB7 /* memic_swiftUITestsLaunchTests.swift */; };
+		69ED0A882C2E735C00011EB7 /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED0A872C2E735C00011EB7 /* Translator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69ED0A692C2E6CF000011EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69ED0A502C2E6CEE00011EB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69ED0A572C2E6CEE00011EB7;
+			remoteInfo = "memic-swift";
+		};
+		69ED0A732C2E6CF000011EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69ED0A502C2E6CEE00011EB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69ED0A572C2E6CEE00011EB7;
+			remoteInfo = "memic-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69E871DA2C2F575C0089DC69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		69ED0A582C2E6CEE00011EB7 /* memic-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "memic-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69ED0A5B2C2E6CEE00011EB7 /* memic_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memic_swiftApp.swift; sourceTree = "<group>"; };
+		69ED0A5D2C2E6CEE00011EB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		69ED0A5F2C2E6CF000011EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69ED0A622C2E6CF000011EB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69ED0A682C2E6CF000011EB7 /* memic-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "memic-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69ED0A6C2C2E6CF000011EB7 /* memic_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memic_swiftTests.swift; sourceTree = "<group>"; };
+		69ED0A722C2E6CF000011EB7 /* memic-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "memic-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69ED0A762C2E6CF000011EB7 /* memic_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memic_swiftUITests.swift; sourceTree = "<group>"; };
+		69ED0A782C2E6CF000011EB7 /* memic_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memic_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69ED0A872C2E735C00011EB7 /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69ED0A552C2E6CEE00011EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69ED0A652C2E6CF000011EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69ED0A6F2C2E6CF000011EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69ED0A4F2C2E6CEE00011EB7 = {
+			isa = PBXGroup;
+			children = (
+				69ED0A5A2C2E6CEE00011EB7 /* memic-swift */,
+				69ED0A6B2C2E6CF000011EB7 /* memic-swiftTests */,
+				69ED0A752C2E6CF000011EB7 /* memic-swiftUITests */,
+				69ED0A592C2E6CEE00011EB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69ED0A592C2E6CEE00011EB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69ED0A582C2E6CEE00011EB7 /* memic-swift.app */,
+				69ED0A682C2E6CF000011EB7 /* memic-swiftTests.xctest */,
+				69ED0A722C2E6CF000011EB7 /* memic-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69ED0A5A2C2E6CEE00011EB7 /* memic-swift */ = {
+			isa = PBXGroup;
+			children = (
+				69E871DA2C2F575C0089DC69 /* Info.plist */,
+				69ED0A5B2C2E6CEE00011EB7 /* memic_swiftApp.swift */,
+				69ED0A872C2E735C00011EB7 /* Translator.swift */,
+				69ED0A5D2C2E6CEE00011EB7 /* ContentView.swift */,
+				69ED0A5F2C2E6CF000011EB7 /* Assets.xcassets */,
+				69ED0A612C2E6CF000011EB7 /* Preview Content */,
+			);
+			path = "memic-swift";
+			sourceTree = "<group>";
+		};
+		69ED0A612C2E6CF000011EB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				69ED0A622C2E6CF000011EB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		69ED0A6B2C2E6CF000011EB7 /* memic-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				69ED0A6C2C2E6CF000011EB7 /* memic_swiftTests.swift */,
+			);
+			path = "memic-swiftTests";
+			sourceTree = "<group>";
+		};
+		69ED0A752C2E6CF000011EB7 /* memic-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69ED0A762C2E6CF000011EB7 /* memic_swiftUITests.swift */,
+				69ED0A782C2E6CF000011EB7 /* memic_swiftUITestsLaunchTests.swift */,
+			);
+			path = "memic-swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69ED0A572C2E6CEE00011EB7 /* memic-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69ED0A7C2C2E6CF000011EB7 /* Build configuration list for PBXNativeTarget "memic-swift" */;
+			buildPhases = (
+				69ED0A542C2E6CEE00011EB7 /* Sources */,
+				69ED0A552C2E6CEE00011EB7 /* Frameworks */,
+				69ED0A562C2E6CEE00011EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "memic-swift";
+			productName = "memic-swift";
+			productReference = 69ED0A582C2E6CEE00011EB7 /* memic-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69ED0A672C2E6CF000011EB7 /* memic-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69ED0A7F2C2E6CF000011EB7 /* Build configuration list for PBXNativeTarget "memic-swiftTests" */;
+			buildPhases = (
+				69ED0A642C2E6CF000011EB7 /* Sources */,
+				69ED0A652C2E6CF000011EB7 /* Frameworks */,
+				69ED0A662C2E6CF000011EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69ED0A6A2C2E6CF000011EB7 /* PBXTargetDependency */,
+			);
+			name = "memic-swiftTests";
+			productName = "memic-swiftTests";
+			productReference = 69ED0A682C2E6CF000011EB7 /* memic-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69ED0A712C2E6CF000011EB7 /* memic-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69ED0A822C2E6CF000011EB7 /* Build configuration list for PBXNativeTarget "memic-swiftUITests" */;
+			buildPhases = (
+				69ED0A6E2C2E6CF000011EB7 /* Sources */,
+				69ED0A6F2C2E6CF000011EB7 /* Frameworks */,
+				69ED0A702C2E6CF000011EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69ED0A742C2E6CF000011EB7 /* PBXTargetDependency */,
+			);
+			name = "memic-swiftUITests";
+			productName = "memic-swiftUITests";
+			productReference = 69ED0A722C2E6CF000011EB7 /* memic-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69ED0A502C2E6CEE00011EB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					69ED0A572C2E6CEE00011EB7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					69ED0A672C2E6CF000011EB7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 69ED0A572C2E6CEE00011EB7;
+					};
+					69ED0A712C2E6CF000011EB7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 69ED0A572C2E6CEE00011EB7;
+					};
+				};
+			};
+			buildConfigurationList = 69ED0A532C2E6CEE00011EB7 /* Build configuration list for PBXProject "memic-swift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69ED0A4F2C2E6CEE00011EB7;
+			productRefGroup = 69ED0A592C2E6CEE00011EB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69ED0A572C2E6CEE00011EB7 /* memic-swift */,
+				69ED0A672C2E6CF000011EB7 /* memic-swiftTests */,
+				69ED0A712C2E6CF000011EB7 /* memic-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69ED0A562C2E6CEE00011EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69ED0A632C2E6CF000011EB7 /* Preview Assets.xcassets in Resources */,
+				69ED0A602C2E6CF000011EB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69ED0A662C2E6CF000011EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69ED0A702C2E6CF000011EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69ED0A542C2E6CEE00011EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69ED0A5E2C2E6CEE00011EB7 /* ContentView.swift in Sources */,
+				69ED0A882C2E735C00011EB7 /* Translator.swift in Sources */,
+				69ED0A5C2C2E6CEE00011EB7 /* memic_swiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69ED0A642C2E6CF000011EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69ED0A6D2C2E6CF000011EB7 /* memic_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69ED0A6E2C2E6CF000011EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69ED0A792C2E6CF000011EB7 /* memic_swiftUITestsLaunchTests.swift in Sources */,
+				69ED0A772C2E6CF000011EB7 /* memic_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69ED0A6A2C2E6CF000011EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69ED0A572C2E6CEE00011EB7 /* memic-swift */;
+			targetProxy = 69ED0A692C2E6CF000011EB7 /* PBXContainerItemProxy */;
+		};
+		69ED0A742C2E6CF000011EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69ED0A572C2E6CEE00011EB7 /* memic-swift */;
+			targetProxy = 69ED0A732C2E6CF000011EB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		69ED0A7A2C2E6CF000011EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69ED0A7B2C2E6CF000011EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69ED0A7D2C2E6CF000011EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"memic-swift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "memic-swift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nkh361.memic-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69ED0A7E2C2E6CF000011EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"memic-swift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "memic-swift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nkh361.memic-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69ED0A802C2E6CF000011EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nkh361.memic-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memic-swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/memic-swift";
+			};
+			name = Debug;
+		};
+		69ED0A812C2E6CF000011EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nkh361.memic-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memic-swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/memic-swift";
+			};
+			name = Release;
+		};
+		69ED0A832C2E6CF000011EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nkh361.memic-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "memic-swift";
+			};
+			name = Debug;
+		};
+		69ED0A842C2E6CF000011EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nkh361.memic-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "memic-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69ED0A532C2E6CEE00011EB7 /* Build configuration list for PBXProject "memic-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69ED0A7A2C2E6CF000011EB7 /* Debug */,
+				69ED0A7B2C2E6CF000011EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69ED0A7C2C2E6CF000011EB7 /* Build configuration list for PBXNativeTarget "memic-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69ED0A7D2C2E6CF000011EB7 /* Debug */,
+				69ED0A7E2C2E6CF000011EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69ED0A7F2C2E6CF000011EB7 /* Build configuration list for PBXNativeTarget "memic-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69ED0A802C2E6CF000011EB7 /* Debug */,
+				69ED0A812C2E6CF000011EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69ED0A822C2E6CF000011EB7 /* Build configuration list for PBXNativeTarget "memic-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69ED0A832C2E6CF000011EB7 /* Debug */,
+				69ED0A842C2E6CF000011EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69ED0A502C2E6CEE00011EB7 /* Project object */;
+}
